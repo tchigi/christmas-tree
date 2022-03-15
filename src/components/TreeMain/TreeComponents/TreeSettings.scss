@@ -1,0 +1,160 @@
+.tree-settings-wrapper {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 442px;
+}
+.tree-utilities-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.tree-select-items-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tree-select-item {
+    width: 134px;
+    height: 110px;
+    background: radial-gradient(109.56% 109.56% at 0% -2.94%, rgba(255, 255, 255, 0.5) 0%, rgba(179, 246, 255, 0.5) 100%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tree-select-item-img {
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+}
+.tree-bg-items-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.tree__bg__item {
+    width: 68px;
+    height: 68px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.tree-bg-garland-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.tree-garland-items-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.tree__garland__item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.garland-multicolor {
+    background: linear-gradient(45deg, #2196F3, #2196F3 100%), linear-gradient(135deg, green, green),
+                linear-gradient(225deg, yellow, yellow) , linear-gradient(225deg, red, red);
+    background-size: 50% 50%;
+    background-position: 0% 0%, 0% 100%, 100% 0%, 100% 100%;
+    background-repeat: no-repeat;
+}
+.garland-red {
+    background: red;
+}
+.garland-blue {
+    background: #2196F3;
+}
+.garland-yellow {
+    background: yellow;
+}
+.garland-green {
+    background: green;
+}
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .toggle-slider {
+    background-color: #2196F3;
+}
+input:focus + .toggle-slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .toggle-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.toggle-slider.round {
+    border-radius: 34px;
+}
+.toggle-slider.round:before {
+    border-radius: 50%;
+}
+.tree__buttons {
+    margin: 0 auto;
+}
+.fa-snowflake {
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("./snow.svg");
+    position: absolute;
+    top: -20px;
+    animation: fall linear forwards;
+    animation-duration: 6s;
+    animation-iteration-count: 45;
+    transform-origin: right -30px;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(105vh);
+    }
+}

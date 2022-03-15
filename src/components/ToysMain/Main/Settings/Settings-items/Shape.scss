@@ -1,0 +1,45 @@
+.shape-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.shape__label {
+  width: 42px;
+  height: 42px;
+  display: block;
+  position: relative;
+}
+.shape__checkbox__item {
+  opacity: 0;
+}
+.shape__checkbox__item + .shape__span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  cursor: pointer;
+}
+.shape-checkbox-bell + .shape__span {
+  background-image: url('bell.svg');
+}
+.shape-checkbox-ball + .shape__span {
+  background-image: url('ball.svg');
+}
+.shape-checkbox-cone + .shape__span {
+  background-image: url('cone.svg');
+}
+.shape-checkbox-star + .shape__span {
+  background-image: url('star.svg');
+}
+.shape-checkbox-snow + .shape__span {
+  background-image: url('snowflake.svg');
+}
+.shape-checkbox-figure + .shape__span {
+  background-image: url('toy.svg');
+}
+.shape__checkbox__item:checked + .shape__span {
+  filter: invert(26%) sepia(51%) saturate(1814%) hue-rotate(281deg) brightness(95%) contrast(88%);
+}

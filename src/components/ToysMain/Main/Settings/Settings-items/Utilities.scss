@@ -1,0 +1,60 @@
+.utilities-container{
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+}
+.volume {
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+  background-image: url('audio.svg');
+  opacity: 0.9;
+  transition: all 0.5s ease;
+}
+.snow {
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+  background-image: url('snow.svg');
+  opacity: 0.9;
+  transition: all 0.5s ease;
+}
+.snow:hover {
+  opacity: 1;
+}
+.snow:active {
+  transform: scale(1.1);
+}
+.volume:hover {
+  opacity: 1;
+}
+.volume:active {
+  transform: scale(1.1);
+}
+.search-container {
+  position: relative;
+}
+.search-input {
+  padding: 0 40px 0 20px;
+  width: 254px;
+  height: 36px;
+  background: radial-gradient(118.88% 606.86% at 0% 0%, rgba(36, 197, 219, 0.15) 0%, rgba(36, 197, 219, 0) 100%);
+  backdrop-filter: blur(31px);
+  border: 1px lightblue solid;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.search-img {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-image: url('search.svg');
+  pointer-events: none;
+}

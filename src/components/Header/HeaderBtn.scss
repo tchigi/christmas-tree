@@ -1,0 +1,14 @@
+.nav-item {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+.nav-item:hover {
+  color: #A03683;
+}
+.nav-item:active {
+  color: #A03683;
+  transform: scale(1.1);
+}

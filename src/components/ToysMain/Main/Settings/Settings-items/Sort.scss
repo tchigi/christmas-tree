@@ -1,0 +1,27 @@
+.sort-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: relative;
+}
+.sort-select {
+  width: 260px;
+  height: 30px;
+  background: radial-gradient(118.88% 606.86% at 0% 0%, rgba(36, 197, 219, 0.15) 0%, rgba(36, 197, 219, 0) 100%);
+  backdrop-filter: blur(31px);
+  border: 1px lightblue solid;
+  border-radius: 30px;
+}
+.arrow-down-sort-container {
+  position: absolute;
+  top: 3px;
+  right: 88px;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  //background-image: url(./assets/svg/arrow-down.svg);
+  pointer-events: none;
+}
+.sort-select option {
+  color: black;
+}

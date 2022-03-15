@@ -1,0 +1,33 @@
+.settings-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.settings__button {
+  background: radial-gradient(118.88% 606.86% at 0% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(157, 243, 255, 0.2) 100%);
+  backdrop-filter: blur(31px);
+  border-radius: 30px;
+  border: solid 1px lightblue;
+  width: 350px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 33px;
+  opacity: 0.9;
+  transition: all 0.5s ease;
+}
+.settings__button:hover {
+  opacity: 1;
+}
+.settings__button:active {
+  transform: scale(1.1);
+}
+.settings__buttons__item__text {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}

@@ -1,0 +1,32 @@
+.tree-center-wrapper{
+  width: 700px;
+  height: 730px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  position: relative;
+}
+.tree-center-item {
+  align-self: flex-end;
+  margin: 0 auto;
+  width: 500px;
+  height: 610px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.snowflake {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.tree-blur {
+  position: relative;
+  opacity: 0;
+  z-index: 50;
+  height: inherit;
+  width: inherit;
+}

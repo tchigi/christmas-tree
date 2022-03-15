@@ -1,0 +1,15 @@
+.header {
+  height: 75px;
+  background-color: #192f2d;
+  display: flex;
+  align-items: center;
+}
+.home-header {
+  padding: 0 100px;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}

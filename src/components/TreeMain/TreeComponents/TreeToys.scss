@@ -1,0 +1,54 @@
+.tree-toys-wrapper {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 442px;
+  height: 100%;
+}
+.tree-toys-items-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+.tree-toys-item {
+  width: 80px;
+  height: 80px;
+  background: lightsteelblue;
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tree-toys-item-img {
+  position: absolute;
+  top: calc(50% - 24px); left: calc(50% - 24px);
+  z-index: 51;
+  height: 48px;
+  width: 48px;
+}
+.tree-toys-item-count {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  background: #24C5DB;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.dressed-tree-items-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}

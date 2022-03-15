@@ -1,0 +1,10 @@
+.categories-item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.categories-checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+}

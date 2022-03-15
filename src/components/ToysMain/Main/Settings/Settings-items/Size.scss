@@ -1,0 +1,15 @@
+.size-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+.size__item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.settings__checkbox {
+  width: 20px;
+  height: 20px;
+}
